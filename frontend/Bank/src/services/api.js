@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://bank-api-m2s8.onrender.com/api';
 
 class ApiService {
   async request(endpoint, options = {}) {
